@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.account {
+    margin: 40px 0px 100px 0px;
+}
+
+.account .container .row .shopping .row .col:last-child {
+    margin: 140px 0px;
+}
+
+.account .container .row .col img {
+    width: 600px;
+}
+
+.account .container .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    column-gap: 150px;
+}
+
+
+.account .container .row .shopping {
+    flex-basis: 90%;
+}
+
+.account .container .row .shopping .col:first-child {
+    background-color: #CBE4E8;
+    display: flex;
+    align-items: center;
+    flex-basis: 60%;
+    height: 781px;
+}
+
+.account .container .row .shopping .col h1 {
+    width: 339px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.account .container .col p {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.account .container .row .shopping .row .col:last-child ul li input {
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0px;
+}
+
+.account .container .row .shopping .row .col:last-child ul li input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.account .container .row .shopping .row .col:last-child ul li {
+    margin: 30px 0px;
+}
+
+input:focus {
+    border-color: #828282;
+}
+
+.account .container .row .shopping .col ul {
+    list-style-type: none;
+}
+
+button {
+    text-align: center;
+    margin: 12px;
+}
+
+.account .container .row .col button {
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+}
+
+.account .container .row .col .first {
+    background-color: #DB4444;
+    color: white;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.account .container .row .col .row-inside {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.account .container .row .col .row-inside .first {
+    flex-basis: 50%;
+}
+
+.account .container .row .col .row-inside .third {
+    flex-basis: 50%;
+}
+
+.account .container .row .col .row-inside .third a {
+    text-decoration: none;
+    color: #DB4444;
+}
+
+
+.account .container .row .col .first a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .account .container .row .shopping .col:first-child {
+        display: none;
+    }
+
+    .account .container .row {
+        justify-content: center;
+    }
+}
